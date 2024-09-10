@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc -Wall BASIC-MATRIX-CALC.c -o BASIC-MATRIX-CALC
+./BASIC-MATRIX-CALC.c

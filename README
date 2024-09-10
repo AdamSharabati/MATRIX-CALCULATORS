@@ -1,0 +1,36 @@
+MATRIX CALCULATORSA
+Authored by Adam Sharabati
+ 
+ ==Description==
+	In this file you will find three programs that simulate a matrix calculator... The calculators can handle 4 matrix dataType (int, double, int complex, binnary)
+	1-	the first program resives two matrixes and an opperator that you want to calculate (ADD,SUB,MUL,AND,OR,NOT,TRANSPOSE)
+		for the opperators NOT, TRANSPOSE you must enter only one matrix.
+		the opperators AND, OR are only for binarry matrixes, and the code prints "ERR" if you entered a non binarry number in the matrix.
+	2-	the second program is devided to two programs that use shared memmory consept.. the first program enters matrixes and opperators as data to the shared memmory
+		when you run the second program it reads the data that the first program saved in the shared memory and prints the output then delete the shared memory.
+	3-	the theird program is a complicated virsuin of the first one. the user enter an even number of matrixes an an opperator that want to make between them.
+		the program calculates the result and print it using threads.
+		opperators that the third program can handle(ADD,MUL,AND,OR).
+	
+ 
+ ==Key Features==
+ 1. the matrix format is: (rows,coloms:DATA SEPERATED BY ,)
+ FORMAT FOR INPUT FOR THE FIRST AND SECOND PROGRAMS:
+ MATRIX1
+ MATRIX2
+ OP
+ 
+ 
+ MATRIX
+ singel matrix OP
+ 
+ 
+ for the third program:
+ MATRIX1
+ MATRIX2
+ MATRIX3
+ MATRIX4
+ .
+ .
+ .
+ OP
